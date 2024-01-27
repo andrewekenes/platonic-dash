@@ -220,5 +220,7 @@ game.onUpdateInterval(1500, function () {
     }
 })
 forever(function () {
-	
+    music.play(music.stringPlayable("F C5 F C5 F C5 F C5 ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("D A D A D A D A ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("C F C F C F G G ", 120), music.PlaybackMode.UntilDone)
 })
